@@ -1,0 +1,13 @@
+    int i;
+main(){
+	i = 9;
+	fib();
+    	PRINT i;
+}
+
+void fib(){
+i = i - 1;
+	if(i >=  0 ){
+	fib();
+	}
+     }

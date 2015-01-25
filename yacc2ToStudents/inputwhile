@@ -1,0 +1,7 @@
+int y;
+y = 0;
+while (y  <=  5.0) {
+	 PRINT y;
+	y = y + 1;
+}
+PRINT y;

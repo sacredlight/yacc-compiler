@@ -1,0 +1,7 @@
+int x;
+float y;
+float z;
+READ x;
+READ y;
+z = x * y;
+PRINT z;

@@ -1,0 +1,17 @@
+float x[10];
+int i;
+float z;
+float y;
+y = 0.1;
+i = 0;
+while (i < 10){
+	x[i] = i + y;
+	i = i + 1;
+}
+
+while (i > 0){
+	z = x[i];
+	PRINT z;
+	PRINTSPACE;
+ 	i = i - 1;
+}

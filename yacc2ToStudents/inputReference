@@ -1,0 +1,13 @@
+int z;
+int x; 
+main(){
+	x = 10;
+	z = 9;
+	fib(&x,&z);
+PRINT x,z;
+}
+
+void fib(int &y, int &w){
+	y = 1;
+	w = 3;
+     }
